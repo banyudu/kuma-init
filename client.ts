@@ -21,6 +21,7 @@ if (options.verbose) {
 const monitor = {
     accepted_statuscodes: ["200-299","301","302"],
     authMethod: null,
+    conditions: [],
     dns_resolve_server: "1.1.1.1",
     dns_resolve_type: "A",
     docker_container: "",
